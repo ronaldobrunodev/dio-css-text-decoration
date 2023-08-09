@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(87, 76, 97);
+}
+.contain{
+    margin: 25px auto;
+    padding: 25px;
+    width: 800px;
+    background-color: rgb(245, 243, 241);
+    border-radius: 8px;
+}
+span{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0px 10px 0px 25%;
+    font-family:'Courier New', Courier, monospace ;
+}
+code{
+    background-color: rgb(247, 206, 156);
+}
+h1{
+    margin: 5px 5px 15px 17px; 
+    text-align: center;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    margin:2px 1px 15px 2px;
+    padding: 1px 20px 2px 20px;
+    font-size: 20px;  
+    background-color: blanchedalmond;
+    border-radius: 8px 0; 
+}
+.exemplo{
+    border-left: 20px solid rgb(247, 206, 156);
+    border-radius: 8px 8px;
+}
+.text-decoration{
+    margin-bottom: 30px;
+}
+#code-style{
+    font-size: 18px;
+}
+#text-decoration-none{
+    font-style: italic;
+}
+.exemplo-b + p{
+    text-decoration: none;   
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration:underline;
+}
+.overline{
+    text-decoration:overline;
+}
+
+
+/*text-decoration-line: line-through;*/
+.line-01{
+    text-decoration-line: line-through;
+    margin-block: auto;  
+}
+.line-02{
+    text-decoration-line: underline;
+    margin-block: auto;
+}
+.line-03{
+    text-decoration-line: overline;
+    margin-block: auto;
+}
+#code-line{      
+    font-style: oblique;
+    line-height: 1px;
+    font-weight: 600; 
+    font-size: 14px;  
+    background: none; 
+}
+/*Line Text*/
+.title-line{
+    color: red;
+    font-weight: 900;
+}
+.ol-text-decoration-line{
+    border-right: red solid 25px;
+    border-radius: 15px 15px;
+}
+/*text-decoration-style;*/
+.title-style{
+    color: blue;
+    font-weight: 900;
+}
+#title{
+    margin: 15px;
+}
+.resumo{
+    background-color: rgb(255, 255, 0);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: right;
+}
+.style-01{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.style-02{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+.style-03{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+.style-04{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+.style-05{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.ol-text-decoration-style{
+    border-left: blue solid 25px;
+    border-radius: 15px 15px;
+}
+
+/*text-decoration-color;*/
+.title-color{
+    color: rgb(1, 1, 8);
+    font-weight: 900;
+}
+.ol-text-decoration-color{
+    border-right: rgb(5, 255, 43) solid 25px;
+    border-radius: 15px 15px;
+}
+.color-01{
+    color: rgb(135, 135, 223);
+    text-decoration-line: underline;    
+    text-decoration-color: darkblue;
+}
+
+/*text-decoration-thickness;*/
+.title-thickness{
+    color: blue;
+    font-weight: 900;
+}
+.ol-text-decoration-thickness{
+    border-left: blue solid 25px;
+    border-radius: 15px 15px;
+}
+.thickness-01{
+    text-decoration-line: underline;    
+    text-decoration-thickness: 5px;
+}

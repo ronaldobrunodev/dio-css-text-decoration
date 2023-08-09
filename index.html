@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Decoration no CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+<div class="contain">
+    <h1>Propriedades <br /> <code>text-decoration</code></h1>
+    <ul><p>Essa pripriedade adiciona ou remove linhas no nosso texto: seja linhas em cima, no meio, ou embaixo.</p>
+        <blockquote>
+            <code id="code-style">
+                <li>text-decoration-none</li>
+                <li>text-decoration-line-through</li>
+                <li>text-decoration-underline</li> 
+                <li>text-decoration-overline</li>            
+            </code> 
+        </blockquote>       
+    </ul>
+    
+    <div id="none" class="text-decoration">
+        <h4><code>text-decoration-none;</code></h4>
+        <p>Ele exclui as atribuições setadas originalmente.</p> 
+            
+        <div id="text-decoration-none">
+            <div class="exemplo" id="exemplo" >
+                <hr />
+                <blockquote>
+                    <p >
+                        <b>Exemplo A:</b>
+                        <br />                   
+                        Neste exemplo usando o código sem extilização <b>CSS</b> o link ficará com um "traçado" típico no rodapé. 
+                        <br /><br />
+                        <a href="#">( Link não Estilizado )</a> código HTML 5
+                         <br />
+                        <code>< a href="#"> < /a> </code>  
+                        <br />                                           
+                    </p>  
+                </blockquote> 
+                <hr />
+                <blockquote>
+                    <p >
+                        <b>Exemplo B: </b> 
+                        <br />                       
+                        Neste exemplo usando o código com extilização <b>CSS</b> o link ficará sem o "traçado" típico no rodapé. 
+                        <br /><br />
+                        <a class="exemplo-b" href="#">( Link Estilizado )</a> 
+                        Código HTML 5 
+                        <br />
+                        <code>< a class="exemplo-b" href="#"> < /a> </code>  
+                        <br /><br />   
+                        Código CSS usando a <b>class="exemplo-b"                            
+                        </b> <br />
+                        <code>.exemplo-b{ <br />
+                            text-decoration: none; <br />  
+                        } </code>  <br />                                           
+                    </p>   
+                </blockquote>    
+                <hr />          
+            </div>                      
+        </div>
+    </div>
+    <div id="none" class="text-decoration">
+        <h4><code>text-decoration-line-through;</code></h4>
+        <p>Ele irá adicionar um traçado ao meio do texto.</p> 
+            
+        <div id="text-decoration-through">
+            <div class="exemplo" id="exemplo" >
+                <hr />
+                <blockquote">
+                    <p >
+                        <b>Exemplo:</b>
+                        <br />  
+                        <p class="line-through">Seu texto irá ficar assim</p>                        
+                          
+                        <p>Código em <b>CSS</b></p>                                        
+                        <code>
+                            .line-through{ <br />
+                            text-decoration: line-through;<br />
+                            }<br />
+                        </code>
+                    </p>  
+                </blockquote> 
+                <hr />                
+            </div>                      
+        </div>
+    </div> 
+    <div id="none" class="text-decoration">
+        <h4><code>text-decoration-underline;</code></h4>
+        <p>Ele irá adicionar um traçado ao meio do texto.</p> 
+            
+        <div id="text-decoration-underline">
+            <div class="exemplo" id="exemplo" >
+                <hr />
+                <blockquote">
+                    <p >
+                        <b>Exemplo:</b>
+                        <br />  
+                        <p class="underline">Seu texto irá ficar assim</p>                        
+                          
+                        <p>Código em <b>CSS</b></p>                                        
+                        <code>
+                            .underline{ <br />
+                            text-decoration: underline;<br />
+                            }<br />
+                        </code>
+                    </p>  
+                </blockquote> 
+                <hr />                
+            </div>                      
+        </div>
+    <div id="none" class="text-decoration">
+        <h4><code>text-decoration-overline;</code></h4>
+        <p>Ele irá adicionar um traçado ao meio do texto.</p> 
+            
+        <div id="text-decoration-overline">
+            <div class="exemplo" id="exemplo" >
+                <hr />
+                <blockquote">
+                    <p >
+                        <b>Exemplo:</b>
+                        <br />  
+                        <p class="overline">Seu texto irá ficar assim</p>                        
+                          
+                        <p>Código em <b>CSS</b></p>                                        
+                        <code>
+                            .overline{ <br />
+                            text-decoration: line-through;<br />
+                            }<br />
+                        </code>
+                    </p>  
+                </blockquote> 
+                <hr />                
+            </div>                      
+        </div>
+        <h1>Propriedades <br /> <code>text-decoration-line</code></h1>
+        <ul><p>Essa pripriedade adiciona ou remove linhas no nosso texto: seja linhas em cima, no meio, ou embaixo.</p>
+            <code >
+                <blockquote>
+                    <div class="text-decoration-line" id="grupo-text">
+                        <li class="title-line" id="title">text-decoration-line;</li>
+                        <code>
+                            <ol class="ol-text-decoration-line">                                
+                                <li class="line-01">
+                                    text-decoration-line: line-through;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .line-01{<br />
+                                        text-decoration-line: line-through; <br />  
+                                    } <br />
+                                    Usando a classe: line-01
+                                </code>
+                                <hr />                                
+                                <li class="line-02">
+                                    text-decoration-line: underline;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .line-01{<br />
+                                        text-decoration-line: underline; <br />  
+                                    } <br />
+                                    Usando a classe: line-02
+                                </code>
+                                <hr/>
+                                <li class="line-03">
+                                    text-decoration-line: overline;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .line-03{<br />
+                                        text-decoration-line: overline; <br />  
+                                    } <br />
+                                    Usando a classe: line-03
+                                </code>
+                                <hr />
+                            </ol>
+                        </code>     
+                        <li class="title-style" id="title">text-decoration-style;</li>                         
+                        <code>
+                            <ol class="ol-text-decoration-style"> 
+                                <p>Será usando para melhor didatica o comando: <br />
+                                <code>text-decoration-line: underline;</code> para poder 
+                                ver a funcionalidade do comando <code>text-decoration-style:</code>
+                                e suas propriedades.</p>                               
+                                <li class="style-01">
+                                    text-decoration-style: solid; (Default)
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .style-01{<br />
+                                        text-decoration-line: underline;<br />
+                                        text-decoration-style: solid;<br />
+                                    } <br />                                    
+                                </code>
+                                <p class="resumo">Como padrão ele cria uma linha continua no texto.</p>
+                                <hr />                                
+                                <li class="style-02">
+                                    text-decoration-style: double;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .style-02{<br />
+                                        text-decoration-line: underline;<br />
+                                        text-decoration-style: double;<br />
+                                    } <br />                                    
+                                </code>
+                                <p class="resumo">
+                                    Ele cria uma linha dupla em todo o texto.</p>
+                                <hr/>
+                                <li class="style-03">
+                                    text-decoration-style: dotted;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .style-03{<br />
+                                        text-decoration-line: underline;<br />
+                                        text-decoration-style: dotted;<br />
+                                    } <br />                                    
+                                </code>
+                                <p class="resumo">
+                                    Ele cria uma linha pontilhada ao longo do texto.</p>
+                                <hr/><li class="style-04">
+                                    text-decoration-style: dashed;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .style-04{<br />
+                                        text-decoration-line: underline;<br />
+                                        text-decoration-style: dashed;<br />
+                                    } <br />                                    
+                                </code>
+                                <p class="resumo">
+                                    Ele cria uma linha tracionada ao longo do texto.</p>
+                                <hr/><li class="style-05">
+                                    text-decoration-style: wavy;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .style-05{<br />
+                                        text-decoration-line: underline;<br />
+                                        text-decoration-style: wavy;<br />
+                                    } <br />                                    
+                                </code>
+                                <p class="resumo">
+                                    Ele cria uma linha com ondas ao longo do texto.</p>
+                                <hr/>
+                            </ol>
+                        </code>     
+                        <li class="title-color" id="title">text-decoration-color;</li>   
+                        <code>
+                            <ol class="ol-text-decoration-color">                                
+                                <li class="color-01">
+                                    text-decoration-color: (cor da linha);
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .color-01{<br />
+                                        color: rgb(254, 254, 255);<br />
+                                        text-decoration-line: underline;<br />
+                                        text-decoration-color: darkblue;<br />
+                                    }
+                                </code>      
+                                <p class="resumo">
+                                    Ele cria uma linha indepedente da cor do texto.
+                                </p>                            
+                                <hr />
+                            </ol>
+                        </code>     
+                        <li class="title-thickness" id="title">text-decoration-thickness;</li>    
+                        <code>
+                            <ol class="ol-text-decoration-thickness">                                
+                                <li class="thickness-01">
+                                    text-decoration-thickness: 5px;
+                                </li>
+                                <br />
+                                <code id="code-line">
+                                    .thickness-01{<br />                                        
+                                        text-decoration-line: underline;<br />
+                                        text-decoration-thickness: 5px;<br />
+                                    }
+                                </code>      
+                                <p class="resumo">
+                                    Ele aumenta a espeçura da linha em px, ou outra unidade de medida. 
+                                </p>     
+                            </ol>
+                        </code>              
+                    </div>      
+                </blockquote>
+            </code>        
+        </ul>
+    </div>           
+</div>   
+<span>eng.Ronaldo Bruno Cardoso</span>
+</body>
+</html>
